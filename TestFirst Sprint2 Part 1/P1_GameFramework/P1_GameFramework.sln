@@ -5,7 +5,7 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P1_GameFramework", "P1_GameFramework.csproj", "{BB7620D3-1A5B-4908-B54C-739C0EF5EF95}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P1_GameFramework_Unit Testing", "..\P1_GameFramework_Unit Testing\P1_GameFramework_Unit Testing.csproj", "{D92E97DB-99FB-4CF2-A7C7-1706D931DCE3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P1_GameFrameWork_UnitTest", "..\P1_GameFrameWork_UnitTest\P1_GameFrameWork_UnitTest.csproj", "{334DA04A-7FD7-4BC8-9B68-D364EB3E3E22}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{BB7620D3-1A5B-4908-B54C-739C0EF5EF95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB7620D3-1A5B-4908-B54C-739C0EF5EF95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB7620D3-1A5B-4908-B54C-739C0EF5EF95}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D92E97DB-99FB-4CF2-A7C7-1706D931DCE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D92E97DB-99FB-4CF2-A7C7-1706D931DCE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D92E97DB-99FB-4CF2-A7C7-1706D931DCE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D92E97DB-99FB-4CF2-A7C7-1706D931DCE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{334DA04A-7FD7-4BC8-9B68-D364EB3E3E22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{334DA04A-7FD7-4BC8-9B68-D364EB3E3E22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{334DA04A-7FD7-4BC8-9B68-D364EB3E3E22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{334DA04A-7FD7-4BC8-9B68-D364EB3E3E22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
