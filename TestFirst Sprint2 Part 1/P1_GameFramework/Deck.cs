@@ -16,15 +16,6 @@ namespace P1_GameFramework
         public string name; // Name of the deck
         public int deckSize; // Size of the deck.
 
-        public Deck(string _name)
-        {
-            name = _name;
-            cards = new List<Card>();
-
-            deckSize = 52;
-
-            CreateCards();
-        }
         /// <summary>
         ///Used for unit testing.
         /// </summary>
@@ -37,15 +28,25 @@ namespace P1_GameFramework
 
             deckSize = 52;
         }
+
+
+
+        public Deck(string _name)
+        {
+            //Assign the name
+            //Create a new list of cards
+            //Deck size = 52
+            //CreateCards()
+        }
         public Deck(string _name,int numSuits, int numCardsPerSuit)
         {
-            name = _name;
-            cards = new List<Card>();
-            deckSize = numSuits * numCardsPerSuit;
+            //Assign the name
+            //Create a new list of cards
+            //Deck size = number of possible cards based on suit amounts and card amounts per suit
+            //CreateCards()
 
-            CreateCards(numSuits,numCardsPerSuit);
+            //CreateCards that utilize the limited numbers
         }
-
         // Shuffle the deck of cards via randomization.
         public void Shuffle()
         {
@@ -53,30 +54,18 @@ namespace P1_GameFramework
             //From Programming 201 at Columbia Chicago College
             //Spring 2023 - SP23-PROG 201-02
 
-            if (deckSize > 0)
-            {
-                for (int i = 0; i < 1000; i++)
-                {
-                    int firstCard = rand.Next(deckSize - 1);
-                    int secondCard = rand.Next(deckSize - 1);
 
-
-                    //Swap cards
-                    Card temp = cards[firstCard];
-                    cards[firstCard] = cards[secondCard];
-                    cards[secondCard] = temp;
-                }
-            }
+            //Shuffle the entire deck
         }
 
         /// Reveal a card from the deck, but do not remove.
         /// <param name="cardPosition">Which card to reveal.</param>
         public string RevealCard(int cardPosition)
         {
-            string cardRank = cards[cardPosition].rank;
-            string cardSuit = cards[cardPosition].suit;
+            //Target a specific card based on the card position
 
-            return $"{cardRank} of {cardSuit}";
+            //return $"{cardRank} of {cardSuit}";
+            return "";
         }
 
         /// <summary>
@@ -87,57 +76,32 @@ namespace P1_GameFramework
         /// <param name="cardPosition">Which card position in particular to discard.</param>
         public void DiscardCard(Deck targetDeck, int numOfCards, int cardPosition)
         {
-            for(int i = 0; i < numOfCards; i++)
-            {
-                targetDeck.cards.Add(this.cards[cardPosition]);
-                this.cards.RemoveAt(cardPosition);
-            }
+            //Target a specific card from the deck, then add it to the other deck
         }
 
         /// Creates the cards needed for the deck.
         public void CreateCards()
         {
-            for (int i = 0; i < (deckSize / 4); i++)
-            {
-                for (int j = 0; j < 4; j++)
-                {
-                    cards.Add(new Card()
-                    {
-                        value = i,
-                        suit = suits[j],
-                        rank = ranks[i]
-                    });
-
-                }
-            }
+            //Create all possible card options from the entire array.
         }
         public void CreateCards(int numOfSuits, int numOfCardsPerSuit)
         {
-            int total = 0;
-
-            for (int i = 0; i < numOfCardsPerSuit; i++)
-            {
-                for (int j = 0; j < numOfSuits; j++)
-                {
-                    cards.Add(new Card()
-                    {
-                        value = i+1,
-                        suit = suits[j],
-                        rank = ranks[i]
-                    });
-                    total++;
-
-                }
-            }
+            //Create cards based on the suit and number of cards per array.
         }
 
         //Gets the name of the deck.
         public string GetName
         {
-            get { return this.name; }
+            //Return the name of the deck
+            get { return ""; }
         }
 
+
+
+
+
         //Temporary method for checking
+        //No unit testing required for this.
         public void RevealAllCards()
         {
             CenterString($"The \"{name}\" has...");

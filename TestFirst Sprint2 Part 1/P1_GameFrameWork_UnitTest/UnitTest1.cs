@@ -23,6 +23,13 @@ namespace P1_GameFrameWork_UnitTest
             Assert.IsTrue(deck.cards.Count == 20);
         }
         [TestMethod]
+        public void Deck_CreatedLimitedDeck_Instatiating()
+        {
+            Deck deck = new Deck("Deck", 2, 10);
+
+            Assert.IsTrue(deck.cards.Count == 20);
+        }
+        [TestMethod]
         public void Deck_IsShuffled()
         {
             Deck one = CreateDeck();
