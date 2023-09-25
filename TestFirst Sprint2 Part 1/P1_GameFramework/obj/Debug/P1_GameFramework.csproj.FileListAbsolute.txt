@@ -14,3 +14,11 @@ C:\Users\nemo1\Source\Repos\Glareyo\Prog201_Programs\Prog201_Assignments\Project
 C:\Users\nemo1\Source\Repos\Glareyo\Prog201_Programs\Prog201_Assignments\Projects\Project1_GameFramework\P1_GameFramework\bin\Debug\P1_GameFramework.exe.config
 C:\Users\nemo1\Source\Repos\Glareyo\Prog201_Programs\Prog201_Assignments\Projects\Project1_GameFramework\P1_GameFramework\bin\Debug\P1_GameFramework.exe
 C:\Users\nemo1\Source\Repos\Glareyo\Prog201_Programs\Prog201_Assignments\Projects\Project1_GameFramework\P1_GameFramework\bin\Debug\P1_GameFramework.pdb
+C:\Users\nemo1\source\repos\Glareyo\Prog_301\TestFirst Sprint2 Part 1\P1_GameFramework\bin\Debug\P1_GameFramework.exe.config
+C:\Users\nemo1\source\repos\Glareyo\Prog_301\TestFirst Sprint2 Part 1\P1_GameFramework\bin\Debug\P1_GameFramework.exe
+C:\Users\nemo1\source\repos\Glareyo\Prog_301\TestFirst Sprint2 Part 1\P1_GameFramework\bin\Debug\P1_GameFramework.pdb
+C:\Users\nemo1\source\repos\Glareyo\Prog_301\TestFirst Sprint2 Part 1\P1_GameFramework\obj\Debug\P1_GameFramework.csproj.AssemblyReference.cache
+C:\Users\nemo1\source\repos\Glareyo\Prog_301\TestFirst Sprint2 Part 1\P1_GameFramework\obj\Debug\P1_GameFramework.csproj.SuggestedBindingRedirects.cache
+C:\Users\nemo1\source\repos\Glareyo\Prog_301\TestFirst Sprint2 Part 1\P1_GameFramework\obj\Debug\P1_GameFramework.csproj.CoreCompileInputs.cache
+C:\Users\nemo1\source\repos\Glareyo\Prog_301\TestFirst Sprint2 Part 1\P1_GameFramework\obj\Debug\P1_GameFramework.exe
+C:\Users\nemo1\source\repos\Glareyo\Prog_301\TestFirst Sprint2 Part 1\P1_GameFramework\obj\Debug\P1_GameFramework.pdb
