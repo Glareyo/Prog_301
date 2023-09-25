@@ -6342,11 +6342,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nemo1\\Source\\Repos\\Glareyo\\Prog201_Programs\\Prog201_Assignments\\Projects\\Project1_GameFramework\\P1_GameFramework_Unit Testing\\P1_GameFramework_Unit Testing.csproj",
+      "projectUniqueName": "C:\\Users\\nemo1\\source\\repos\\Glareyo\\Prog_301\\TestFirst Sprint2 Part 1\\P1_GameFramework_Unit Testing\\P1_GameFramework_Unit Testing.csproj",
       "projectName": "P1_GameFramework_Unit Testing",
-      "projectPath": "C:\\Users\\nemo1\\Source\\Repos\\Glareyo\\Prog201_Programs\\Prog201_Assignments\\Projects\\Project1_GameFramework\\P1_GameFramework_Unit Testing\\P1_GameFramework_Unit Testing.csproj",
+      "projectPath": "C:\\Users\\nemo1\\source\\repos\\Glareyo\\Prog_301\\TestFirst Sprint2 Part 1\\P1_GameFramework_Unit Testing\\P1_GameFramework_Unit Testing.csproj",
       "packagesPath": "C:\\Users\\nemo1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nemo1\\Source\\Repos\\Glareyo\\Prog201_Programs\\Prog201_Assignments\\Projects\\Project1_GameFramework\\P1_GameFramework_Unit Testing\\obj\\",
+      "outputPath": "C:\\Users\\nemo1\\source\\repos\\Glareyo\\Prog_301\\TestFirst Sprint2 Part 1\\P1_GameFramework_Unit Testing\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
