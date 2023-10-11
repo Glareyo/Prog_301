@@ -30,15 +30,9 @@ namespace Prog301_Sprint5Demo.Models
 
     // INotifyPropertyChanged
     // Allows the dog to notify the WPF Interface that the property has changed.
-    public class Dog : IDog, INotifyPropertyChanged
+    public class Dog : IDog
     {
-        public event PropertyChangedEventHandler PropertyChanged;
-        // Create the OnPropertyChanged method to raise the event
-        // The calling member's name will be used as the parameter.
-        protected void OnPropertyChanged([CallerMemberName] string name = null)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
-        }
+        
 
         //Private Instance Data Members
         protected string name;
@@ -54,15 +48,7 @@ namespace Prog301_Sprint5Demo.Models
         } // Longer expression/way
         
         
-        public int Age {
-            get { return this.age; }
-            set 
-            {
-                age = value;
-                OnPropertyChanged();
-            }
-        } // Shorter expression/way
-        //public int Age { get => age; set => age = value; } // Shorter expression/way
+        public int Age { get => age; set => age = value; } // Shorter expression/way
 
 
 
@@ -75,7 +61,6 @@ namespace Prog301_Sprint5Demo.Models
             set
             {
                 weight = value;
-                OnPropertyChanged();
             }
         }
         public string BarkSound { get; set; }

@@ -1,4 +1,5 @@
 ﻿using Prog301_Sprint5Demo.Models;
+using Prog301_Sprint5Demo.ViewsModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,30 +22,29 @@ namespace Prog301_Sprint5Demo
     /// </summary>
     public partial class MainWindow : Window
     {
-        Dog d;
+        DogViewModel vm;
 
         public MainWindow()
         {
             InitializeComponent();
-            d = new Dog();
+            vm = new DogViewModel(new Dog() { Name = "Jericho" });
 
-            d.Name = "Jericho";
-            this.DataContext = d;
+            this.DataContext = vm;
         }
 
         private void btnHappyBirthday_Click(object sender, RoutedEventArgs e)
         {
-            d.Age += 1;
+            vm.Age += 1;
         }
 
         private void btnEat_Click(object sender, RoutedEventArgs e)
         {
-            d.Eat();
+            vm.dog.Eat();
         }
 
         private void btnPoop_Click(object sender, RoutedEventArgs e)
         {
-            d.Poop();
+            vm.dog.Poop();
         }
     }
 }
