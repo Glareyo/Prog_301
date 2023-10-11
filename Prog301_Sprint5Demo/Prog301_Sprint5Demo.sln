@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prog301_Sprint5Demo", "Prog301_Sprint5Demo.csproj", "{95F2C220-8F08-4803-993B-4B3A8702D687}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prog301_Sprint5Demo_Test", "..\Prog301_Sprint5Demo_Test\Prog301_Sprint5Demo_Test.csproj", "{A949F52B-ECD9-48B5-9513-410BE677B8EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95F2C220-8F08-4803-993B-4B3A8702D687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95F2C220-8F08-4803-993B-4B3A8702D687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95F2C220-8F08-4803-993B-4B3A8702D687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95F2C220-8F08-4803-993B-4B3A8702D687}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A949F52B-ECD9-48B5-9513-410BE677B8EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A949F52B-ECD9-48B5-9513-410BE677B8EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A949F52B-ECD9-48B5-9513-410BE677B8EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A949F52B-ECD9-48B5-9513-410BE677B8EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1720779F-6472-432A-B938-9DCEBB466BC5}
+	EndGlobalSection
+EndGlobal

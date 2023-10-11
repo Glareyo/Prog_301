@@ -1,0 +1,28 @@
+﻿<Window x:Class="Prog301_Sprint5Demo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Prog301_Sprint5Demo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label x:Name="lblDogName">Name:</Label>
+                <TextBox x:Name="tbDogName" VerticalAlignment="Center" Text="{Binding Path=Name}"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label x:Name="lblDogAge">Age:</Label>
+                <TextBox x:Name="tbDogAge" VerticalAlignment="Center" Text="{Binding Path=Age}"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label x:Name="lblDogWeight">Weight:</Label>
+                <TextBox x:Name="tbDogWeight" VerticalAlignment="Center" Text="{Binding Path=Weight}"></TextBox>
+            </StackPanel>
+            <Button x:Name="btnHappyBirthday" Click="btnHappyBirthday_Click">Happy Birthday</Button>
+            <Button x:Name="btnEat" Click="btnEat_Click">Eat</Button>
+            <Button x:Name="btnPoop" Click="btnPoop_Click">Poop</Button>
+        </StackPanel>
+    </Grid>
+</Window>
