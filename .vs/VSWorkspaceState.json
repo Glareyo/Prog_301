@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Prog301_Sprint5Demo",
+    "\\Prog301_Sprint5Demo\\ViewsModels",
+    "\\TestFirst Sprint2 Part 1\\P1_GameFramework"
   ],
+  "SelectedNode": "\\Prog301_Sprint5Demo\\ViewsModels\\DogViewModel.cs",
   "PreviewInSolutionExplorer": false
 }
