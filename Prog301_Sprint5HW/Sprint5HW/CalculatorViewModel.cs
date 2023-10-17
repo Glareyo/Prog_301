@@ -1,50 +1,58 @@
-﻿using Prog301_Sprint5Demo.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
+using System.Security;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Prog301_Sprint5Demo.ViewsModels
+namespace Sprint5HW
 {
-    /// <summary>
-    /// A specific class that directly interacts with the WPF
-    /// THe dog class itself DOES NOT Interact with the WPF.
-    /// </summary>
-    public class DogViewModel : INotifyPropertyChanged
+    public class CalculatorViewModel : INotifyPropertyChanged
     {
-        public Dog dog;
+        public Calculator calc;
 
-        public string Name
+        public CalculatorViewModel()
         {
-            get { return dog.Name; }
+            calc = new Calculator();
+        }
+
+        public int Result
+        {
+            get { return calc.Result; }
+            set 
+            {
+                calc.Result = value;
+                OnPropertyChanged();
+            }   
+        }
+        public int CalculateResult()
+        {
+            return calc.calculate();
+        }
+
+        public char MathChar
+        {
+            get { return calc.MathChar; } 
             set
             {
-                dog.Name = value;
+                calc.changeMathChar(Convert.ToChar(value));
                 OnPropertyChanged();
             }
         }
-        public int Age
+        public string CurrentNumber
         {
-            get { return dog.Age; }
+            get { return calc.currentNumber; }
             set
             {
-                dog.Age = value;
+                calc.inputNumber(value);
                 OnPropertyChanged();
             }
         }
-        public int Weight
-        {
-            get { return dog.Weight; }
-            set
-            {
-                dog.Weight = value;
-                OnPropertyChanged();
-            }
-        }
-            
+
+        //Credit ==> Programming 301 Lecture from Jeff Meyers, FA23-PROG 301-01
+
         public event PropertyChangedEventHandler PropertyChanged;
         // Create the OnPropertyChanged method to raise the event
         // The calling member's name will be used as the parameter.
@@ -53,9 +61,5 @@ namespace Prog301_Sprint5Demo.ViewsModels
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
         }
 
-        public DogViewModel(Dog _dog) 
-        {
-            this.dog = _dog;
-        }
     }
 }

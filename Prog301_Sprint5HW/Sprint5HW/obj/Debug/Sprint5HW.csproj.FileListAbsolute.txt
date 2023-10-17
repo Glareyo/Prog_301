@@ -1,0 +1,16 @@
+C:\Users\nemo1\source\repos\Glareyo\Prog_301\Prog301_Sprint5HW\Sprint5HW\bin\Debug\Sprint5HW.exe.config
+C:\Users\nemo1\source\repos\Glareyo\Prog_301\Prog301_Sprint5HW\Sprint5HW\bin\Debug\Sprint5HW.exe
+C:\Users\nemo1\source\repos\Glareyo\Prog_301\Prog301_Sprint5HW\Sprint5HW\bin\Debug\Sprint5HW.pdb
+C:\Users\nemo1\source\repos\Glareyo\Prog_301\Prog301_Sprint5HW\Sprint5HW\obj\Debug\Sprint5HW.csproj.AssemblyReference.cache
+C:\Users\nemo1\source\repos\Glareyo\Prog_301\Prog301_Sprint5HW\Sprint5HW\obj\Debug\Sprint5HW.csproj.SuggestedBindingRedirects.cache
+C:\Users\nemo1\source\repos\Glareyo\Prog_301\Prog301_Sprint5HW\Sprint5HW\obj\Debug\MainWindow.g.cs
+C:\Users\nemo1\source\repos\Glareyo\Prog_301\Prog301_Sprint5HW\Sprint5HW\obj\Debug\App.g.cs
+C:\Users\nemo1\source\repos\Glareyo\Prog_301\Prog301_Sprint5HW\Sprint5HW\obj\Debug\Sprint5HW_MarkupCompile.cache
+C:\Users\nemo1\source\repos\Glareyo\Prog_301\Prog301_Sprint5HW\Sprint5HW\obj\Debug\Sprint5HW_MarkupCompile.lref
+C:\Users\nemo1\source\repos\Glareyo\Prog_301\Prog301_Sprint5HW\Sprint5HW\obj\Debug\MainWindow.baml
+C:\Users\nemo1\source\repos\Glareyo\Prog_301\Prog301_Sprint5HW\Sprint5HW\obj\Debug\Sprint5HW.g.resources
+C:\Users\nemo1\source\repos\Glareyo\Prog_301\Prog301_Sprint5HW\Sprint5HW\obj\Debug\Sprint5HW.Properties.Resources.resources
+C:\Users\nemo1\source\repos\Glareyo\Prog_301\Prog301_Sprint5HW\Sprint5HW\obj\Debug\Sprint5HW.csproj.GenerateResource.cache
+C:\Users\nemo1\source\repos\Glareyo\Prog_301\Prog301_Sprint5HW\Sprint5HW\obj\Debug\Sprint5HW.csproj.CoreCompileInputs.cache
+C:\Users\nemo1\source\repos\Glareyo\Prog_301\Prog301_Sprint5HW\Sprint5HW\obj\Debug\Sprint5HW.exe
+C:\Users\nemo1\source\repos\Glareyo\Prog_301\Prog301_Sprint5HW\Sprint5HW\obj\Debug\Sprint5HW.pdb
