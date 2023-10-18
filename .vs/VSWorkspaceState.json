@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Prog301_Sprint5Demo\\ViewsModels",
-    "\\Prog301_Sprint5HW"
+    "\\Prog301_Sprint5Demo"
   ],
-  "SelectedNode": "\\Prog301_Sprint5HW",
+  "SelectedNode": "\\Prog301_Sprint5Demo\\MainWindow.xaml.cs",
   "PreviewInSolutionExplorer": false
 }
