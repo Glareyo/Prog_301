@@ -39,12 +39,12 @@ namespace Prog301_Sprint5Demo
 
         private void btnEat_Click(object sender, RoutedEventArgs e)
         {
-            vm.dog.Eat();
+            vm.Eat();
         }
 
         private void btnPoop_Click(object sender, RoutedEventArgs e)
         {
-            vm.dog.Poop();
+            vm.Poop();
         }
     }
 }

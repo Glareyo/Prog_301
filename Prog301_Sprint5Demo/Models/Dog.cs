@@ -32,8 +32,6 @@ namespace Prog301_Sprint5Demo.Models
     // Allows the dog to notify the WPF Interface that the property has changed.
     public class Dog : IDog
     {
-        
-
         //Private Instance Data Members
         protected string name;
         protected int age;
@@ -49,8 +47,6 @@ namespace Prog301_Sprint5Demo.Models
         
         
         public int Age { get => age; set => age = value; } // Shorter expression/way
-
-
 
         public int Weight
         {
@@ -83,10 +79,6 @@ namespace Prog301_Sprint5Demo.Models
             return this.BarkSound;
         }
 
-        /*public void Eat(int HowMuch = 1)
-        {
-            this.Weight += HowMuch;
-        }*/
         public void Eat()
         {
             this.Weight++;
