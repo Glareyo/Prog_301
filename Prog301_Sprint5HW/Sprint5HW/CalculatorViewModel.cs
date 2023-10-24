@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Sprint5HW
 {
-    public class CalculatorViewModel : INotifyPropertyChanged
+    public class CalculatorViewModel : BaseViewModel
     {
         public Calculator calc;
 
@@ -51,15 +51,7 @@ namespace Sprint5HW
             }
         }
 
-        //Credit ==> Programming 301 Lecture from Jeff Meyers, FA23-PROG 301-01
-
-        public event PropertyChangedEventHandler PropertyChanged;
-        // Create the OnPropertyChanged method to raise the event
-        // The calling member's name will be used as the parameter.
-        protected void OnPropertyChanged([CallerMemberName] string name = null)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
-        }
+        
 
     }
 }

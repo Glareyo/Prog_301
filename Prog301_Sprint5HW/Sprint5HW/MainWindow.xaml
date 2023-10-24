@@ -1,29 +1,14 @@
-﻿<Window x:Class="Sprint5HW.MainWindow"
+﻿<Window
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Sprint5HW"
+        xmlns:UserControls="clr-namespace:Sprint5HW.UserControls" x:Class="Sprint5HW.MainWindow"
         mc:Ignorable="d"
         Title="MainWindow" Height="313" Width="625">
     <Grid Background="#FFB7B7B7">
-        <Button x:Name="b_one" Content="1" HorizontalAlignment="Left" Margin="32,40,0,0" VerticalAlignment="Top" Height="40" Width="40" Click="b_numberClicked"/>
-        <Button x:Name="b_two" Content="2" HorizontalAlignment="Left" Margin="77,40,0,0" VerticalAlignment="Top" Height="40" Width="40" Click="b_numberClicked"/>
-        <Button x:Name="b_three" Content="3" HorizontalAlignment="Left" Margin="122,40,0,0" VerticalAlignment="Top" Height="40" Width="40" Click="b_numberClicked"/>
-        <Button x:Name="b_four" Content="4" HorizontalAlignment="Left" Margin="32,85,0,0" VerticalAlignment="Top" Height="40" Width="40" Click="b_numberClicked"/>
-        <Button x:Name="b_five" Content="5" HorizontalAlignment="Left" Margin="77,85,0,0" VerticalAlignment="Top" Height="40" Width="40" Click="b_numberClicked"/>
-        <Button x:Name="b_six" Content="6" HorizontalAlignment="Left" Margin="122,85,0,0" VerticalAlignment="Top" Height="40" Width="40" Click="b_numberClicked"/>
-        <Button x:Name="b_seven" Content="7" HorizontalAlignment="Left" Margin="32,130,0,0" VerticalAlignment="Top" Height="40" Width="40" Click="b_numberClicked"/>
-        <Button x:Name="b_eight" Content="8" HorizontalAlignment="Left" Margin="77,130,0,0" VerticalAlignment="Top" Height="40" Width="40" Click="b_numberClicked"/>
-        <Button x:Name="b_nine" Content="9" HorizontalAlignment="Left" Margin="122,130,0,0" VerticalAlignment="Top" Height="40" Width="40" Click="b_numberClicked"/>
-        <Button x:Name="b_plus" Content="+" HorizontalAlignment="Left" Margin="186,40,0,0" VerticalAlignment="Top" Height="40" Width="40" Click="b_mathCharClicked"/>
-        <Button x:Name="b_minus" Content="-" HorizontalAlignment="Left" Margin="186,85,0,0" VerticalAlignment="Top" Height="40" Width="40" Click="b_mathCharClicked"/>
-        <Button x:Name="b_multiply" Content="*" HorizontalAlignment="Left" Margin="186,130,0,0" VerticalAlignment="Top" Height="40" Width="40" Click="b_mathCharClicked"/>
-        <Button x:Name="b_divide" Content="/" HorizontalAlignment="Left" Margin="186,175,0,0" VerticalAlignment="Top" Height="40" Width="40" Click="b_mathCharClicked"/>
-        <Button x:Name="b_zero" Content="0" HorizontalAlignment="Left" Margin="77,175,0,0" VerticalAlignment="Top" Height="40" Width="40" Click="b_numberClicked"/>
-        <Button x:Name="b_equal" Content="=" HorizontalAlignment="Left" Margin="231,110,0,0" VerticalAlignment="Top" Height="40" Width="40" Click="b_calculateClicked"/>
-        <TextBlock x:Name="txtBck_result" HorizontalAlignment="Left" Margin="328,84,0,0" TextWrapping="Wrap" Text="{Binding Path=Result}" VerticalAlignment="Top" Height="92" Width="272" Background="#FFD7D7D7" TextAlignment="Center"/>
-        <TextBlock x:Name="txtBck_currentInput" HorizontalAlignment="Left" Margin="430,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="23" Width="152" Background="#FFD7D7D7" TextAlignment="Center" Text="{Binding Path=CurrentNumber}"/>
-        <TextBlock x:Name="txtBck_mathChar" HorizontalAlignment="Left" Margin="386,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="23" Width="39" Background="#FFD7D7D7" TextAlignment="Center" Text="{Binding MathChar}"/>
+        <UserControls:ucCalculatorButtons x:Name="CalculatorButtons" HorizontalAlignment="Left" Margin="27,44,0,0" VerticalAlignment="Top"/>
+        <local:ucCalculatorDisplay x:Name="uc_Display" HorizontalAlignment="Left" Margin="312,57,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>

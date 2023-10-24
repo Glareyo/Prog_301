@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="Sprint5HW.ucCalculatorDisplay"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Sprint5HW"
+             mc:Ignorable="d" Height="120" Width="272">
+    <Grid>
+        <TextBlock x:Name="txtBck_result" HorizontalAlignment="Left" Margin="0,28,0,0" TextWrapping="Wrap" Text="{Binding Result}" VerticalAlignment="Top" Height="92" Width="272" Background="#FFD7D7D7" TextAlignment="Center"/>
+        <TextBlock x:Name="txtBck_currentInput" HorizontalAlignment="Left" Margin="102,1,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="23" Width="152" Background="#FFD7D7D7" TextAlignment="Center" Text="{Binding CurrentNumber}"/>
+        <TextBlock x:Name="txtBck_mathChar" HorizontalAlignment="Left" Margin="58,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="23" Width="39" Background="#FFD7D7D7" TextAlignment="Center" Text="{Binding MathChar}"/>
+    </Grid>
+</UserControl>

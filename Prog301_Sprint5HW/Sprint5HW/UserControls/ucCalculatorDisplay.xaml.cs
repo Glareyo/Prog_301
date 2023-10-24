@@ -16,19 +16,13 @@ using System.Windows.Shapes;
 namespace Sprint5HW
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for ucCalculatorDisplay.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class ucCalculatorDisplay : UserControl
     {
-        CalculatorViewModel vm;
-
-        public MainWindow()
+        public ucCalculatorDisplay()
         {
             InitializeComponent();
-
-            vm = new CalculatorViewModel();
-            CalculatorButtons.vm = this.vm;
-            uc_Display.DataContext = vm;
         }
     }
 }
