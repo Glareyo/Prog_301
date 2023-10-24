@@ -20,6 +20,13 @@ namespace Sprint5HW
     /// </summary>
     public partial class ucCalculatorDisplay : UserControl
     {
+        //Credits:
+        // https://www.youtube.com/watch?v=18KrD8bpIXY => Learn With Umair
+        // Helped demonstrate how to implement user controls
+
+        // https://www.youtube.com/watch?v=udNudU3iaRQ =>  Aaric Aaiden
+        // Helped demonstrate how to access and insert user controls into the mainWindow.
+
         public ucCalculatorDisplay()
         {
             InitializeComponent();

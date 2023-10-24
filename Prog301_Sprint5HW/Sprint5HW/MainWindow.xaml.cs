@@ -1,4 +1,17 @@
-﻿using System;
+﻿// Nehemiah Cedillo
+
+//Credits:
+// https://www.youtube.com/watch?v=18KrD8bpIXY => Learn With Umair
+// Helped demonstrate how to implement user controls
+
+// https://www.youtube.com/watch?v=udNudU3iaRQ =>  Aaric Aaiden
+// Helped demonstrate how to access and insert user controls into the mainWindow.
+
+// https://www.youtube.com/watch?v=fOookEq5od0 => Eduardo Rosas
+// Helped demonstrate how to implement ICommands.
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

@@ -21,7 +21,8 @@ namespace Sprint5HW
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
         }
 
-
+        // https://www.youtube.com/watch?v=fOookEq5od0 => Eduardo Rosas
+        // Helped demonstrate how to implement ICommands.
         // ICommand Interfaces
         public event EventHandler CanExecuteChanged;
 
