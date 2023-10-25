@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "9IGWK4xcnlmGjWxdF/p//ttj8zkoJcRukurkVEtJA4HfIB8p4NH3a9zV2FEk9/DJ7ZmRrhqBG6JswzN0Y5nrSg==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\cedillo02\\Source\\Repos\\Glareyo\\Prog_301\\Prog301_Sprint7\\WpfAppDogDepend\\Sprint6\\Sprint6.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\cedillo02\\Source\\Repos\\Glareyo\\Prog_301\\Prog301_Sprint7\\DogLibraryDotNet\\DogLibraryDotNet\\DogLibraryDotNet.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\cedillo02\\Source\\Repos\\Glareyo\\Prog_301\\Prog301_Sprint7\\DogLibraryDotNet\\DogLibraryDotNet\\DogLibraryDotNet.csproj",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}

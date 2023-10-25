@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="WpfAppDog.Models.WPFMammal">
+    <Position X="5" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAEAAAAEAAEAAAAQAgDAAAAAQAAAAAAAAABA=</HashCode>
+      <FileName>ViewModels\WPFMammal.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WpfAppDog.Models.WPFMammalCommand">
+    <Position X="7.75" Y="2" Width="3.25" />
+    <NestedTypes>
+      <Delegate Name="WpfAppDog.Models.WPFMammalCommand.ICommandOnExecute" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ViewModels\WPFMammal.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="WpfAppDog.Models.WPFMammalCommand.ICommandOnCanExecute" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ViewModels\WPFMammal.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEACAAQAAECAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\WPFMammal.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DogLibrary.Dog">
+    <Position X="3" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DogLibrary.Mammal" Collapsed="true">
+    <Position X="3" Y="1" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WpfAppDog.ViewModels.ViewModelMammals">
+    <Position X="0.5" Y="5.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAIAAAACAAAA=</HashCode>
+      <FileName>ViewModels\ViewModelMammals.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DogLibrary.IMammal">
+    <Position X="0.5" Y="2.25" Width="1.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="DogLibrary.IAboutable">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

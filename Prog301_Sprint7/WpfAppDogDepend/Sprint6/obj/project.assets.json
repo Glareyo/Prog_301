@@ -1,0 +1,94 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "C:\\Users\\cedillo02\\Source\\Repos\\Glareyo\\Prog_301\\Prog301_Sprint7\\DogLibraryDotNet\\DogLibraryDotNet\\DogLibraryDotNet.csproj"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\cedillo02\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\cedillo02\\Source\\Repos\\Glareyo\\Prog_301\\Prog301_Sprint7\\WpfAppDogDepend\\Sprint6\\Sprint6.csproj",
+      "projectName": "Sprint6",
+      "projectPath": "C:\\Users\\cedillo02\\Source\\Repos\\Glareyo\\Prog_301\\Prog301_Sprint7\\WpfAppDogDepend\\Sprint6\\Sprint6.csproj",
+      "packagesPath": "C:\\Users\\cedillo02\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cedillo02\\Source\\Repos\\Glareyo\\Prog_301\\Prog301_Sprint7\\WpfAppDogDepend\\Sprint6\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\cedillo02\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "C:\\Users\\cedillo02\\Source\\Repos\\Glareyo\\Prog_301\\Prog301_Sprint7\\DogLibraryDotNet\\DogLibraryDotNet\\DogLibraryDotNet.csproj": {
+              "projectPath": "C:\\Users\\cedillo02\\Source\\Repos\\Glareyo\\Prog_301\\Prog301_Sprint7\\DogLibraryDotNet\\DogLibraryDotNet\\DogLibraryDotNet.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\cedillo02\\Source\\Repos\\Glareyo\\Prog_301\\Prog301_Sprint7\\DogLibraryDotNet\\DogLibraryDotNet\\DogLibraryDotNet.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\cedillo02\\Source\\Repos\\Glareyo\\Prog_301\\Prog301_Sprint7\\DogLibraryDotNet\\DogLibraryDotNet\\DogLibraryDotNet.csproj",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}
