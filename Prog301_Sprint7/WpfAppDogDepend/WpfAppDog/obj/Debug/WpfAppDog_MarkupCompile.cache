@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Workspace\src\GitHub\OOP2Class\WpfAppDogDepend\WpfAppDog\obj\Debug\
+C:\Users\nemo1\Source\Repos\Glareyo\Prog_301\Prog301_Sprint7\WpfAppDogDepend\WpfAppDog\obj\Debug\
 WpfAppDog
 none
 false
 DEBUG;TRACE
-C:\Workspace\src\GitHub\OOP2Class\WpfAppDogDepend\WpfAppDog\App.xaml
+C:\Users\nemo1\Source\Repos\Glareyo\Prog_301\Prog301_Sprint7\WpfAppDogDepend\WpfAppDog\App.xaml
 51016169541
 
 12-758798782
-15-486322942
+13-38814620
 MainWindow.xaml;Views\MammalListView.xaml;Views\MammalView.xaml;WpfMamml.xaml;WpfMammals.xaml;
 
-False
+True
 
