@@ -4,11 +4,12 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Sprint5HW"
-        xmlns:UserControls="clr-namespace:Sprint5HW.UserControls" x:Class="Sprint5HW.MainWindow"
+        xmlns:UserControls="clr-namespace:Sprint5HW.UserControls" xmlns:Result_Classes="clr-namespace:Sprint5HW.Result_Classes" x:Class="Sprint5HW.MainWindow"
         mc:Ignorable="d"
         Title="MainWindow" Height="313" Width="625">
     <Grid Background="#FFB7B7B7">
-        <UserControls:ucCalculatorButtons x:Name="CalculatorButtons" HorizontalAlignment="Left" Margin="27,44,0,0" VerticalAlignment="Top"/>
-        <local:ucCalculatorDisplay x:Name="uc_Display" HorizontalAlignment="Left" Margin="312,57,0,0" VerticalAlignment="Top"/>
+        <UserControls:ucCalculatorButtons x:Name="CalculatorButtons" HorizontalAlignment="Left" Margin="40,0,0,0" VerticalAlignment="Top"/>
+        <local:ucCalculatorDisplay x:Name="uc_Display" HorizontalAlignment="Left" Margin="286,30,0,0" VerticalAlignment="Top"/>
+        <Result_Classes:ucResultDisplay x:Name="uc_ResultsInterface" HorizontalAlignment="Center" Margin="0,189,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>

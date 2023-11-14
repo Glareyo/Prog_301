@@ -10,7 +10,13 @@
 // https://www.youtube.com/watch?v=fOookEq5od0 => Eduardo Rosas
 // Helped demonstrate how to implement ICommands.
 
+//Derek Banas => https://www.youtube.com/watch?v=jbwjbbc5PjI&list=WL&index=61
+// Demonstrated serialization and implementations
 
+//Jeff Meyers
+// Provided lectures and classroom information on programming using C#
+
+using Sprint5HW.Result_Classes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -34,14 +40,27 @@ namespace Sprint5HW
     public partial class MainWindow : Window
     {
         CalculatorViewModel vm;
+        ResultViewModel resultVM;
+        ResultRepoViewModel resultRepoVM;
 
         public MainWindow()
         {
             InitializeComponent();
 
             vm = new CalculatorViewModel();
+            resultVM = new ResultViewModel();
+            resultRepoVM = new ResultRepoViewModel();
+
+            CalculatorButtons.resultVM = this.resultVM;
+            
+
+            
             CalculatorButtons.vm = this.vm;
             uc_Display.DataContext = vm;
+
+            uc_ResultsInterface.resultViewModel = resultVM;
+            uc_ResultsInterface.DataContext = resultVM;
+            uc_ResultsInterface.resultRepo = this.resultRepoVM;
         }
     }
 }

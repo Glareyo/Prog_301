@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Sprint5HW.Result_Classes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -28,31 +29,66 @@ namespace Sprint5HW.UserControls
         // Helped demonstrate how to access and insert user controls into the mainWindow.
 
         public CalculatorViewModel vm { get; set; }
+        public ResultViewModel resultVM { get; set; }
 
+        bool mathCharInputted;
+        bool intInputted;
 
         public ucCalculatorButtons()
         {
             InitializeComponent();
+            mathCharInputted = false;
+            intInputted = false;
+
+            CheckInputs();
         }
 
         private void b_numberClicked(object sender, RoutedEventArgs e)
         {
             Button b = sender as Button;
             vm.CurrentNumber = b.Content.ToString();
+            resultVM.CurrentInputtedInt = Convert.ToInt32(b.Content);
+
+            intInputted = true;
+            CheckInputs();
         }
 
         private void b_mathCharClicked(object sender, RoutedEventArgs e)
         {
             Button b = sender as Button;
             vm.MathChar = (Convert.ToChar(b.Content.ToString()));
+            resultVM.CurrentMathChar = Convert.ToChar(b.Content.ToString());
+
+            mathCharInputted = true;
+            CheckInputs();
         }
 
         private void b_calculateClicked(object sender, RoutedEventArgs e)
         {
             Button b = sender as Button;
+
             vm.Result = vm.CalculateResult();
             vm.CurrentNumber = "";
             vm.MathChar = ' ';
+
+            resultVM.FullResultOutput = vm.Result.ToString();
+            resultVM.ResultOutput = vm.Result;
+
+            mathCharInputted = false;
+            intInputted=false;
+            CheckInputs();
+        }
+
+        private void CheckInputs()
+        {
+            if (mathCharInputted && intInputted)
+            {
+                b_equal.IsEnabled = true;
+            }
+            else
+            {
+                b_equal.IsEnabled = false;
+            }
         }
     }
 }

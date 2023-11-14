@@ -19,3 +19,5 @@ C:\Users\nemo1\Source\Repos\Glareyo\Prog_301\Prog301_Sprint5HW\Sprint5HW\obj\Deb
 C:\Users\nemo1\Source\Repos\Glareyo\Prog_301\Prog301_Sprint5HW\Sprint5HW\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\nemo1\Source\Repos\Glareyo\Prog_301\Prog301_Sprint5HW\Sprint5HW\obj\Debug\UserControls\ucCalculatorDisplay.g.cs
 C:\Users\nemo1\Source\Repos\Glareyo\Prog_301\Prog301_Sprint5HW\Sprint5HW\obj\Debug\UserControls\ucCalculatorDisplay.baml
+C:\Users\nemo1\Source\Repos\Glareyo\Prog_301\Prog301_Sprint5HW\Sprint5HW\obj\Debug\Result Classes\ucResultDisplay.g.cs
+C:\Users\nemo1\Source\Repos\Glareyo\Prog_301\Prog301_Sprint5HW\Sprint5HW\obj\Debug\Result Classes\ucResultDisplay.baml

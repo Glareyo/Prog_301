@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\nemo1\Source\Repos\Glareyo\Prog_301\Prog301_Sprint5HW\Sprint5HW\App.xaml
-3-132324690
+4-1679361092
 
-10-334391113
-13-1310406943
-MainWindow.xaml;UserControls\ucCalculatorDisplay.xaml;UserControls\ucCalculatorButtons.xaml;
+161893945007
+151937372271
+MainWindow.xaml;Result Classes\ucResultDisplay.xaml;UserControls\ucCalculatorDisplay.xaml;UserControls\ucCalculatorButtons.xaml;
 
-True
+False
 
