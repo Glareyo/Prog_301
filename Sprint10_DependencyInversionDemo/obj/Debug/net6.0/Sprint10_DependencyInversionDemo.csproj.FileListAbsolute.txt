@@ -1,0 +1,15 @@
+C:\Users\cedillo02\Source\Repos\Glareyo\Prog_301\Sprint10_DependencyInversionDemo\bin\Debug\net6.0\Sprint10_DependencyInversionDemo.exe
+C:\Users\cedillo02\Source\Repos\Glareyo\Prog_301\Sprint10_DependencyInversionDemo\bin\Debug\net6.0\Sprint10_DependencyInversionDemo.deps.json
+C:\Users\cedillo02\Source\Repos\Glareyo\Prog_301\Sprint10_DependencyInversionDemo\bin\Debug\net6.0\Sprint10_DependencyInversionDemo.runtimeconfig.json
+C:\Users\cedillo02\Source\Repos\Glareyo\Prog_301\Sprint10_DependencyInversionDemo\bin\Debug\net6.0\Sprint10_DependencyInversionDemo.dll
+C:\Users\cedillo02\Source\Repos\Glareyo\Prog_301\Sprint10_DependencyInversionDemo\bin\Debug\net6.0\Sprint10_DependencyInversionDemo.pdb
+C:\Users\cedillo02\Source\Repos\Glareyo\Prog_301\Sprint10_DependencyInversionDemo\obj\Debug\net6.0\Sprint10_DependencyInversionDemo.csproj.AssemblyReference.cache
+C:\Users\cedillo02\Source\Repos\Glareyo\Prog_301\Sprint10_DependencyInversionDemo\obj\Debug\net6.0\Sprint10_DependencyInversionDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cedillo02\Source\Repos\Glareyo\Prog_301\Sprint10_DependencyInversionDemo\obj\Debug\net6.0\Sprint10_DependencyInversionDemo.AssemblyInfoInputs.cache
+C:\Users\cedillo02\Source\Repos\Glareyo\Prog_301\Sprint10_DependencyInversionDemo\obj\Debug\net6.0\Sprint10_DependencyInversionDemo.AssemblyInfo.cs
+C:\Users\cedillo02\Source\Repos\Glareyo\Prog_301\Sprint10_DependencyInversionDemo\obj\Debug\net6.0\Sprint10_DependencyInversionDemo.csproj.CoreCompileInputs.cache
+C:\Users\cedillo02\Source\Repos\Glareyo\Prog_301\Sprint10_DependencyInversionDemo\obj\Debug\net6.0\Sprint10_DependencyInversionDemo.dll
+C:\Users\cedillo02\Source\Repos\Glareyo\Prog_301\Sprint10_DependencyInversionDemo\obj\Debug\net6.0\refint\Sprint10_DependencyInversionDemo.dll
+C:\Users\cedillo02\Source\Repos\Glareyo\Prog_301\Sprint10_DependencyInversionDemo\obj\Debug\net6.0\Sprint10_DependencyInversionDemo.pdb
+C:\Users\cedillo02\Source\Repos\Glareyo\Prog_301\Sprint10_DependencyInversionDemo\obj\Debug\net6.0\Sprint10_DependencyInversionDemo.genruntimeconfig.cache
+C:\Users\cedillo02\Source\Repos\Glareyo\Prog_301\Sprint10_DependencyInversionDemo\obj\Debug\net6.0\ref\Sprint10_DependencyInversionDemo.dll
