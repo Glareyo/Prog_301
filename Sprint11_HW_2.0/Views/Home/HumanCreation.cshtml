@@ -1,0 +1,50 @@
+﻿@page
+@model Sprint11_HW_2._0.Views.Home.HumanCreationModel
+@{
+    <h1>Create a Human!</h1>
+
+    <form method="post">
+            <button type="submit">Add</button>
+            <input type="number" name="ID" />
+            <input type="number" name="Age" />
+            <input type="text" name="FirstName" />
+            <input type="text" name="LastName" />
+            <input type="text" name="Occupation" />
+    </form>
+
+
+    <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Age</th>
+                    <th>FirstName</th>
+                    <th>LastName</th>
+                    <th>Occupation</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (Human x in Model.HumanList)
+            {
+                    <tr>
+                        <td>
+                            @x.ID
+                        </td>
+                        <td>
+                            @x.Age
+                        </td>
+                        <td>
+                            @x.FirstName
+                        </td>
+                        <td>
+                            @x.LastName
+                        </td>
+                        <td>
+                            @x.Occupation
+                        </td>
+                    </tr>
+            }
+            </tbody>
+    </table>
+}

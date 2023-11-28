@@ -1,0 +1,49 @@
+﻿@page
+@model Sprint11_HW.Models.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Human</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Human.FirstName" class="control-label"></label>
+                <input asp-for="Human.FirstName" class="form-control" />
+                <span asp-validation-for="Human.FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Human.LastName" class="control-label"></label>
+                <input asp-for="Human.LastName" class="form-control" />
+                <span asp-validation-for="Human.LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Human.Age" class="control-label"></label>
+                <input asp-for="Human.Age" class="form-control" />
+                <span asp-validation-for="Human.Age" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Human.Occupation" class="control-label"></label>
+                <input asp-for="Human.Occupation" class="form-control" />
+                <span asp-validation-for="Human.Occupation" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

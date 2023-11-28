@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Sprint11_HW",
+    "\\Sprint11_HW\\Views",
+    "\\Sprint11_HW\\Views\\Shared"
   ],
-  "SelectedNode": "\\WpfAppDog.sln (Prog301_Sprint7\\WpfAppDogDepend2\\WpfAppDogDepend\\WpfAppDog.sln)",
+  "SelectedNode": "\\Sprint11_HW\\Views\\Shared\\_Layout.cshtml",
   "PreviewInSolutionExplorer": false
 }
