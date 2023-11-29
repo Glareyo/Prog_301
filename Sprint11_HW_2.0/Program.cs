@@ -18,6 +18,7 @@ namespace Sprint11_HW_2._0
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+            builder.Services.AddRazorPages();
             builder.Services.AddControllersWithViews();
 
             //Credits
@@ -41,6 +42,8 @@ namespace Sprint11_HW_2._0
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.MapRazorPages();
 
             app.MapControllerRoute(
                 name: "default",
