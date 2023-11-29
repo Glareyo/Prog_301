@@ -4,6 +4,9 @@ using Sprint11_HW_2._0.Models;
 
 namespace Sprint11_HW_2._0.Views.Home
 {
+    //Credits
+    // http.www.youtube.com/watch?v=pmWFzzU_NB4
+    // tutorialsEU - C# => Demonstrated implentation of Razor and pages.
     public class HumanCreationModel : PageModel
     {
         private readonly DatabaseHandler _databaseHandler;

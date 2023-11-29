@@ -1,3 +1,12 @@
+//Credits
+// http.www.youtube.com/watch?v=pmWFzzU_NB4
+// tutorialsEU - C# => Demonstrated implentation of Razor and pages.
+
+// Jeff Meyers
+// Provided lectures and documentation on creating and using MVC Applications.
+
+
+
 using Sprint11_HW_2._0.Models;
 
 namespace Sprint11_HW_2._0
@@ -11,6 +20,9 @@ namespace Sprint11_HW_2._0
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
+            //Credits
+            // http.www.youtube.com/watch?v=pmWFzzU_NB4
+            // tutorialsEU - C# => Demonstrated implentation of Razor and pages.
             builder.Services.AddDbContext<DatabaseHandler>();
 
             var app = builder.Build();
