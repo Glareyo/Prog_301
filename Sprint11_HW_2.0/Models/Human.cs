@@ -2,6 +2,17 @@
 {
     public class Human : IHuman
     {
+        public Human()
+        {
+            ID = humanCount++   ;
+            FirstName = "Jacob";
+            LastName = "Larringston";
+            Age = 32;
+            Occupation = "Bartender";
+        }
+
+        public static int humanCount;
+
         public int ID { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
