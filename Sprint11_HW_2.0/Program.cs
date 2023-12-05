@@ -5,6 +5,9 @@
 // Jeff Meyers
 // Provided lectures and documentation on creating and using MVC Applications.
 
+//Credit
+//https://learn.microsoft.com/en-us/aspnet/mvc/overview/older-versions-1/unit-testing/creating-unit-tests-for-asp-net-mvc-applications-cs
+//Demonstrated how to unit test MVC Controllers
 
 
 using Sprint11_HW_2._0.Models;

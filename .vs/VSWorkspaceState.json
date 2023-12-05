@@ -1,11 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Sprint11_HW_2.0",
-    "\\Sprint11_HW_2.0\\Controllers",
+    "\\Prog301_CurrencyProject",
     "\\Sprint11_HW_2.0\\Views",
     "\\Sprint11_HW_2.0\\Views\\Home"
   ],
-  "SelectedNode": "\\Sprint11_HW_2.0\\Views\\Home\\HumanCreation.cshtml",
+  "SelectedNode": "\\Prog301_CurrencyProject\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

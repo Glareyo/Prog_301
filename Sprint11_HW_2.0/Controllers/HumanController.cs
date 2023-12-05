@@ -12,7 +12,7 @@ namespace Sprint11_HW_2._0.Controllers
     public class HumanController : Controller
     {
         static Human human;
-        static List<Human> humanList;
+        public static List<Human> humanList;
 
         public HumanController()
         {
