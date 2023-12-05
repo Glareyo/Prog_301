@@ -149,13 +149,13 @@ namespace UnitTest
 
 
             //Act
-            changeTwoDollars = (CurrencyRepo)CurrencyRepo.CreateChange(2.0);
-            changeOneDollarOneHalfDoller = (CurrencyRepo)CurrencyRepo.CreateChange(1.5);
-            changeOneQuatersOnHalfDollar = (CurrencyRepo)CurrencyRepo.CreateChange(.75);
+            changeTwoDollars = (CurrencyRepo)CurrencyRepo.CreateChange(2.0,CurrencyRepo.CoinType.US);
+            changeOneDollarOneHalfDoller = (CurrencyRepo)CurrencyRepo.CreateChange(1.5, CurrencyRepo.CoinType.US);
+            changeOneQuatersOnHalfDollar = (CurrencyRepo)CurrencyRepo.CreateChange(.75, CurrencyRepo.CoinType.US);
 
-            changeOneDimeOnePenny = (CurrencyRepo)CurrencyRepo.CreateChange(.11);
-            changeOneNickelOnePenny = (CurrencyRepo)CurrencyRepo.CreateChange(.06);
-            changeFourPennies = (CurrencyRepo)CurrencyRepo.CreateChange(.04);
+            changeOneDimeOnePenny = (CurrencyRepo)CurrencyRepo.CreateChange(.11, CurrencyRepo.CoinType.US);
+            changeOneNickelOnePenny = (CurrencyRepo)CurrencyRepo.CreateChange(.06, CurrencyRepo.CoinType.US);
+            changeFourPennies = (CurrencyRepo)CurrencyRepo.CreateChange(.04, CurrencyRepo.CoinType.US);
 
 
             //Assert

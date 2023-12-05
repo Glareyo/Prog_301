@@ -45,6 +45,15 @@
   <ItemGroup>
     <Compile Include="Coin.cs" />
     <Compile Include="CurrencyRepo.cs" />
+    <Compile Include="EuroCoinClasses\FiveCEuroCoin.cs" />
+    <Compile Include="EuroCoinClasses\TwoCEuroCoin.cs" />
+    <Compile Include="EuroCoinClasses\OneCEuroCoin.cs" />
+    <Compile Include="EuroCoinClasses\TenCEuroCoin.cs" />
+    <Compile Include="EuroCoinClasses\TwentyCEuroCoin.cs" />
+    <Compile Include="EuroCoinClasses\FiftyCEuroCoin .cs" />
+    <Compile Include="EuroCoinClasses\OneEuroCoin.cs" />
+    <Compile Include="EuroCoinClasses\TwoEuroCoin.cs" />
+    <Compile Include="EuroCoinClasses\EuroCoin.cs" />
     <Compile Include="Interfaces\IBankNote.cs" />
     <Compile Include="Interfaces\ICoin.cs" />
     <Compile Include="Interfaces\ICurrency.cs" />

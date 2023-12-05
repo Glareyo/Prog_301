@@ -8,6 +8,7 @@ namespace Prog301_CurrencyProject
 {
     public interface ICurrencyRepo
     {
+        
         List<ICoin> Coins { get; set; }
         string About();
         void AddCoin(ICoin c);

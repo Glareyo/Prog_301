@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\Sprint11_HW_2.0",
-    "\\Sprint11_HW_2.0\\Controllers"
+    "\\Sprint11_HW_2.0\\Controllers",
+    "\\Sprint11_HW_2.0\\Views",
+    "\\Sprint11_HW_2.0\\Views\\Home"
   ],
-  "SelectedNode": "\\Sprint11_HW_2.0\\Controllers\\TestController.cs",
+  "SelectedNode": "\\Sprint11_HW_2.0\\Views\\Home\\HumanCreation.cshtml",
   "PreviewInSolutionExplorer": false
 }

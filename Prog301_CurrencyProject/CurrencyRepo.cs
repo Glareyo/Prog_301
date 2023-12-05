@@ -1,4 +1,5 @@
-﻿using Prog301_CurrencyProject.USCoinClasses;
+﻿using Prog301_CurrencyProject.EuroCoinClasses;
+using Prog301_CurrencyProject.USCoinClasses;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,7 @@ namespace Prog301_CurrencyProject
 {
     public class CurrencyRepo : ICurrencyRepo
     {
+        public enum CoinType { Euro, US };
         public CurrencyRepo()
         {
             Coins = new List<ICoin>();
@@ -24,12 +26,28 @@ namespace Prog301_CurrencyProject
             Coins.Add(c);
         }
 
-        public static ICurrencyRepo CreateChange(double amount)
+        public static ICurrencyRepo CreateChange(double amount,CoinType type)
         {
             CurrencyRepo repo = new CurrencyRepo();
 
+            List<ICoin> returningCoins = new List<ICoin>();
+
+            if (type == CoinType.US)
+            {
+                returningCoins = CreateUSChange(amount);
+            }
+            else
+            {
+                returningCoins = CreateEuroChange(amount);
+            }
+            repo.Coins = returningCoins;
+            return repo;
+        }
+
+        static List<ICoin> CreateUSChange(double amount)
+        {
             double adjustedAmount = amount;
-            
+
             List<ICoin> returningCoins = new List<ICoin>();
 
             bool running = true;
@@ -72,9 +90,67 @@ namespace Prog301_CurrencyProject
                 }
             }
 
-            repo.Coins = returningCoins;
-            return repo;
+            return returningCoins;
         }
+        static List<ICoin> CreateEuroChange(double amount)
+        {
+            double adjustedAmount = amount;
+
+            List<ICoin> returningCoins = new List<ICoin>();
+
+            bool running = true;
+
+            while (running)
+            {
+                if (adjustedAmount <= 0)
+                {
+                    running = false;
+                }
+                if (adjustedAmount >= 2)
+                {
+                    returningCoins.Add(new TwoEuroCoin());
+                    adjustedAmount -= 2;
+                }
+                else if (adjustedAmount >= 1)
+                {
+                    returningCoins.Add(new OneEuroCoin());
+                    adjustedAmount -= 1;
+                }
+                else if (adjustedAmount >= 0.5)
+                {
+                    returningCoins.Add(new FiftyCEuroCoin());
+                    adjustedAmount -= 0.5;
+                }
+                else if (adjustedAmount >= 0.20)
+                {
+                    returningCoins.Add(new TwentyCEuroCoin());
+                    adjustedAmount -= 0.20;
+                }
+                else if (adjustedAmount >= 0.1)
+                {
+                    returningCoins.Add(new TenCEuroCoin());
+                    adjustedAmount -= 0.1;
+                }
+                else if (adjustedAmount >= 0.05)
+                {
+                    returningCoins.Add(new FiveCEuroCoin());
+                    adjustedAmount -= 0.05;
+                }
+                else if (adjustedAmount >= 0.02)
+                {
+                    returningCoins.Add(new TwoCEuroCoin());
+                    adjustedAmount -= 0.02;
+                }
+                else if (adjustedAmount > 0)
+                {
+                    returningCoins.Add(new OneCEuroCoin());
+                    adjustedAmount -= 0.01;
+                }
+            }
+
+            return returningCoins;
+        }
+
         public static ICurrencyRepo CreateChange(double amountTendered, double TotalCost)
         {
             throw new NotImplementedException();
