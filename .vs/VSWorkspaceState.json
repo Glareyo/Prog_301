@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Prog301_CurrencyProject",
+    "\\Prog301_CurrencyProject\\UnitTest"
   ],
-  "SelectedNode": "\\WpfAppDog.sln (Prog301_Sprint7\\WpfAppDogDepend2\\WpfAppDogDepend\\WpfAppDog.sln)",
+  "SelectedNode": "\\Prog301_CurrencyProject\\UnitTest\\EuroCurrencyRepoTests.cs",
   "PreviewInSolutionExplorer": false
 }
