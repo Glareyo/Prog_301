@@ -14,7 +14,7 @@ namespace UnitTest
     {
         ICurrencyRepo repo;
         OneEuroCoin oneEuroCoin;
-        TwoCEuroCoin twoEuroCoin;
+        TwoEuroCoin twoEuroCoin;
         FiftyCEuroCoin fiftyCEuroCoin;
         TwentyCEuroCoin twentyCEuroCoin;
         TenCEuroCoin tenCEuroCoin;
@@ -26,7 +26,7 @@ namespace UnitTest
         {
             repo = new CurrencyRepo();
             oneEuroCoin = new OneEuroCoin();
-            twoEuroCoin = new TwoCEuroCoin();
+            twoEuroCoin = new TwoEuroCoin();
             fiftyCEuroCoin = new FiftyCEuroCoin();
             twentyCEuroCoin = new TwentyCEuroCoin();
             tenCEuroCoin = new TenCEuroCoin();
@@ -142,16 +142,30 @@ namespace UnitTest
 
 
             //Assert
-            Assert.AreEqual(coinCountOrig - 1, coinCountAfterOneC);
-            Assert.AreEqual(coinCountAfterOneC - numOneCs, coinCountAfterFiveOneCs);
+            Assert.AreEqual(Convert.ToDecimal(coinCountOrig) - 1, Convert.ToDecimal(coinCountAfterOneC));
+            Assert.AreEqual(Convert.ToDecimal(coinCountAfterOneC) - numOneCs, Convert.ToDecimal(coinCountAfterFiveOneCs));
 
-            Assert.AreEqual(valueOrig - oneCEuroCoin.MonetaryValue, valueAfterOneC);
-            Assert.AreEqual(valueAfterOneC - (numOneCs * oneCEuroCoin.MonetaryValue), valueAfterFiveOneCs);
+            Assert.AreEqual(Convert.ToDecimal(valueOrig) - Convert.ToDecimal(oneCEuroCoin.MonetaryValue), Convert.ToDecimal(valueAfterOneC));
+            Assert.AreEqual(Convert.ToDecimal(valueAfterOneC) - numOneCs * Convert.ToDecimal(oneCEuroCoin.MonetaryValue), Convert.ToDecimal(valueAfterFiveOneCs));
 
             //Assert.AreEqual(valueAfterFiveMorePennies - nickel.MonetaryValue, valueAfterNickel); //HUH? 1.35 != 1.35 both are double?
-            Assert.AreEqual(valueAfterFiveC - tenCEuroCoin.MonetaryValue, valueAfterTenC);
-            Assert.AreEqual(valueAfterTenC - twentyCEuroCoin.MonetaryValue, valueAfterTwentyC);
-            Assert.AreEqual(valueAfterTwentyC - fiftyCEuroCoin.MonetaryValue, valueAfterFiftyC);
+            Assert.AreEqual(Convert.ToDecimal(valueAfterFiveC) - Convert.ToDecimal(tenCEuroCoin.MonetaryValue), Convert.ToDecimal(valueAfterTenC));
+            Assert.AreEqual(Convert.ToDecimal(valueAfterTenC) - Convert.ToDecimal(twentyCEuroCoin.MonetaryValue), Convert.ToDecimal(valueAfterTwentyC));
+            Assert.AreEqual(Convert.ToDecimal(valueAfterTwentyC) - Convert.ToDecimal(fiftyCEuroCoin.MonetaryValue), Convert.ToDecimal(valueAfterFiftyC));
+        }
+
+        [TestMethod]
+        public void MakeChangeTests()
+        {
+            CurrencyRepo Change3Euros, ChangeOneHalfEuros, ChangeThiryFiveCEuros;
+
+            Change3Euros = (CurrencyRepo)CurrencyRepo.CreateChange(3.0, CurrencyRepo.CoinType.Euro);
+            ChangeOneHalfEuros = (CurrencyRepo)CurrencyRepo.CreateChange(1.5, CurrencyRepo.CoinType.Euro);
+            ChangeThiryFiveCEuros = (CurrencyRepo)CurrencyRepo.CreateChange(0.35, CurrencyRepo.CoinType.Euro);
+
+            Assert.AreEqual(Change3Euros.Coins.Count, 2);
+            Assert.AreEqual(ChangeOneHalfEuros.Coins.Count, 2);
+            Assert.AreEqual(ChangeThiryFiveCEuros.Coins.Count, 3);
 
         }
     }

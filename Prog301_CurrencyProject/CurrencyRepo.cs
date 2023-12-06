@@ -94,7 +94,7 @@ namespace Prog301_CurrencyProject
         }
         static List<ICoin> CreateEuroChange(double amount)
         {
-            double adjustedAmount = amount;
+            decimal adjustedAmount = Convert.ToDecimal(amount);
 
             List<ICoin> returningCoins = new List<ICoin>();
 
@@ -116,35 +116,35 @@ namespace Prog301_CurrencyProject
                     returningCoins.Add(new OneEuroCoin());
                     adjustedAmount -= 1;
                 }
-                else if (adjustedAmount >= 0.5)
+                else if (adjustedAmount >= Convert.ToDecimal(0.5))
                 {
                     returningCoins.Add(new FiftyCEuroCoin());
-                    adjustedAmount -= 0.5;
+                    adjustedAmount -= Convert.ToDecimal(0.5);
                 }
-                else if (adjustedAmount >= 0.20)
+                else if (adjustedAmount >= Convert.ToDecimal(0.20))
                 {
                     returningCoins.Add(new TwentyCEuroCoin());
-                    adjustedAmount -= 0.20;
+                    adjustedAmount -= Convert.ToDecimal(0.20);
                 }
-                else if (adjustedAmount >= 0.1)
+                else if (adjustedAmount >= Convert.ToDecimal(0.1))
                 {
                     returningCoins.Add(new TenCEuroCoin());
-                    adjustedAmount -= 0.1;
+                    adjustedAmount -= Convert.ToDecimal(0.1);
                 }
-                else if (adjustedAmount >= 0.05)
+                else if (adjustedAmount >= Convert.ToDecimal(0.05))
                 {
                     returningCoins.Add(new FiveCEuroCoin());
-                    adjustedAmount -= 0.05;
+                    adjustedAmount -= Convert.ToDecimal(0.05);
                 }
-                else if (adjustedAmount >= 0.02)
+                else if (adjustedAmount >= Convert.ToDecimal(0.02))
                 {
                     returningCoins.Add(new TwoCEuroCoin());
-                    adjustedAmount -= 0.02;
+                    adjustedAmount -= Convert.ToDecimal(0.02);
                 }
                 else if (adjustedAmount > 0)
                 {
                     returningCoins.Add(new OneCEuroCoin());
-                    adjustedAmount -= 0.01;
+                    adjustedAmount -= Convert.ToDecimal(0.01);
                 }
             }
 

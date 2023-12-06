@@ -10,13 +10,14 @@ namespace Prog301_CurrencyProject.EuroCoinClasses
     {
         public virtual string About()
         {
-            string about = $"Euro {Name} is from {Year}. It is worth €{MonetaryValue}.";
+            string about = $"The {Name} is from {Year}. It is worth €{MonetaryValue}.";
             return about;
         }
 
         public EuroCoin()
         {
             Year = System.DateTime.Now.Year;
+            
         }
     }
 }

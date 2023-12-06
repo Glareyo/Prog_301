@@ -6,3 +6,11 @@ C:\Users\nemo1\source\repos\Glareyo\Prog_301\Prog301_CurrencyProject\obj\Debug\P
 C:\Users\nemo1\source\repos\Glareyo\Prog_301\Prog301_CurrencyProject\obj\Debug\Prog301_CurrencyProject.csproj.CoreCompileInputs.cache
 C:\Users\nemo1\source\repos\Glareyo\Prog_301\Prog301_CurrencyProject\obj\Debug\Prog301_CurrencyProject.exe
 C:\Users\nemo1\source\repos\Glareyo\Prog_301\Prog301_CurrencyProject\obj\Debug\Prog301_CurrencyProject.pdb
+C:\Users\cedillo02\Source\Repos\Glareyo\Prog_301\Prog301_CurrencyProject\bin\Debug\Prog301_CurrencyProject.exe.config
+C:\Users\cedillo02\Source\Repos\Glareyo\Prog_301\Prog301_CurrencyProject\bin\Debug\Prog301_CurrencyProject.exe
+C:\Users\cedillo02\Source\Repos\Glareyo\Prog_301\Prog301_CurrencyProject\bin\Debug\Prog301_CurrencyProject.pdb
+C:\Users\cedillo02\Source\Repos\Glareyo\Prog_301\Prog301_CurrencyProject\obj\Debug\Prog301_CurrencyProject.csproj.AssemblyReference.cache
+C:\Users\cedillo02\Source\Repos\Glareyo\Prog_301\Prog301_CurrencyProject\obj\Debug\Prog301_CurrencyProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\cedillo02\Source\Repos\Glareyo\Prog_301\Prog301_CurrencyProject\obj\Debug\Prog301_CurrencyProject.csproj.CoreCompileInputs.cache
+C:\Users\cedillo02\Source\Repos\Glareyo\Prog_301\Prog301_CurrencyProject\obj\Debug\Prog301_CurrencyProject.exe
+C:\Users\cedillo02\Source\Repos\Glareyo\Prog_301\Prog301_CurrencyProject\obj\Debug\Prog301_CurrencyProject.pdb
