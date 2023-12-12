@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nemo1\\Source\\Repos\\Glareyo\\Prog_301\\Sprint11_HW_2.0_UnitTests\\Sprint11_HW_2.0_UnitTests.csproj": {}
+    "C:\\Users\\cedillo02\\Source\\Repos\\Glareyo\\Prog_301\\Sprint11_HW_2.0_UnitTests\\Sprint11_HW_2.0_UnitTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nemo1\\Source\\Repos\\Glareyo\\Prog_301\\Sprint11_HW_2.0\\Sprint11_HW_2.0.csproj": {
+    "C:\\Users\\cedillo02\\Source\\Repos\\Glareyo\\Prog_301\\Sprint11_HW_2.0\\Sprint11_HW_2.0.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nemo1\\Source\\Repos\\Glareyo\\Prog_301\\Sprint11_HW_2.0\\Sprint11_HW_2.0.csproj",
+        "projectUniqueName": "C:\\Users\\cedillo02\\Source\\Repos\\Glareyo\\Prog_301\\Sprint11_HW_2.0\\Sprint11_HW_2.0.csproj",
         "projectName": "Sprint11_HW_2.0",
-        "projectPath": "C:\\Users\\nemo1\\Source\\Repos\\Glareyo\\Prog_301\\Sprint11_HW_2.0\\Sprint11_HW_2.0.csproj",
-        "packagesPath": "C:\\Users\\nemo1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nemo1\\Source\\Repos\\Glareyo\\Prog_301\\Sprint11_HW_2.0\\obj\\",
+        "projectPath": "C:\\Users\\cedillo02\\Source\\Repos\\Glareyo\\Prog_301\\Sprint11_HW_2.0\\Sprint11_HW_2.0.csproj",
+        "packagesPath": "C:\\Users\\cedillo02\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cedillo02\\Source\\Repos\\Glareyo\\Prog_301\\Sprint11_HW_2.0\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\nemo1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\cedillo02\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,6 +27,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -77,24 +78,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\nemo1\\Source\\Repos\\Glareyo\\Prog_301\\Sprint11_HW_2.0_UnitTests\\Sprint11_HW_2.0_UnitTests.csproj": {
+    "C:\\Users\\cedillo02\\Source\\Repos\\Glareyo\\Prog_301\\Sprint11_HW_2.0_UnitTests\\Sprint11_HW_2.0_UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nemo1\\Source\\Repos\\Glareyo\\Prog_301\\Sprint11_HW_2.0_UnitTests\\Sprint11_HW_2.0_UnitTests.csproj",
+        "projectUniqueName": "C:\\Users\\cedillo02\\Source\\Repos\\Glareyo\\Prog_301\\Sprint11_HW_2.0_UnitTests\\Sprint11_HW_2.0_UnitTests.csproj",
         "projectName": "Sprint11_HW_2.0_UnitTests",
-        "projectPath": "C:\\Users\\nemo1\\Source\\Repos\\Glareyo\\Prog_301\\Sprint11_HW_2.0_UnitTests\\Sprint11_HW_2.0_UnitTests.csproj",
-        "packagesPath": "C:\\Users\\nemo1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nemo1\\Source\\Repos\\Glareyo\\Prog_301\\Sprint11_HW_2.0_UnitTests\\obj\\",
+        "projectPath": "C:\\Users\\cedillo02\\Source\\Repos\\Glareyo\\Prog_301\\Sprint11_HW_2.0_UnitTests\\Sprint11_HW_2.0_UnitTests.csproj",
+        "packagesPath": "C:\\Users\\cedillo02\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cedillo02\\Source\\Repos\\Glareyo\\Prog_301\\Sprint11_HW_2.0_UnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\nemo1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\cedillo02\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -110,8 +111,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\nemo1\\Source\\Repos\\Glareyo\\Prog_301\\Sprint11_HW_2.0\\Sprint11_HW_2.0.csproj": {
-                "projectPath": "C:\\Users\\nemo1\\Source\\Repos\\Glareyo\\Prog_301\\Sprint11_HW_2.0\\Sprint11_HW_2.0.csproj"
+              "C:\\Users\\cedillo02\\Source\\Repos\\Glareyo\\Prog_301\\Sprint11_HW_2.0\\Sprint11_HW_2.0.csproj": {
+                "projectPath": "C:\\Users\\cedillo02\\Source\\Repos\\Glareyo\\Prog_301\\Sprint11_HW_2.0\\Sprint11_HW_2.0.csproj"
               }
             }
           }
@@ -159,7 +160,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

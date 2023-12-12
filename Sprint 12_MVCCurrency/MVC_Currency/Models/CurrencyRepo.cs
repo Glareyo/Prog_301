@@ -55,11 +55,13 @@ namespace MVC_Currency
 
             while (running)
             {
+                adjustedAmount = Math.Round(adjustedAmount, 2);
+
                 if (adjustedAmount <= 0)
                 {
                     running = false;
                 }
-                if (adjustedAmount >= 1)
+                else if (adjustedAmount >= 1)
                 {
                     returningCoins.Add(new DollarCoin());
                     adjustedAmount -= 1;

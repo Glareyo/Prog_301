@@ -16,7 +16,6 @@ namespace MVC_Currency.Controllers
         // GET: CurrencyRepo
         public ActionResult Index()
         {
-
             return View(vm);
         }
 

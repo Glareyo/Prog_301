@@ -9999,23 +9999,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nemo1\\.nuget\\packages\\": {},
+    "C:\\Users\\cedillo02\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nemo1\\Source\\Repos\\Glareyo\\Prog_301\\Sprint11_HW_2.0\\Sprint11_HW_2.0.csproj",
+      "projectUniqueName": "C:\\Users\\cedillo02\\Source\\Repos\\Glareyo\\Prog_301\\Sprint11_HW_2.0\\Sprint11_HW_2.0.csproj",
       "projectName": "Sprint11_HW_2.0",
-      "projectPath": "C:\\Users\\nemo1\\Source\\Repos\\Glareyo\\Prog_301\\Sprint11_HW_2.0\\Sprint11_HW_2.0.csproj",
-      "packagesPath": "C:\\Users\\nemo1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nemo1\\Source\\Repos\\Glareyo\\Prog_301\\Sprint11_HW_2.0\\obj\\",
+      "projectPath": "C:\\Users\\cedillo02\\Source\\Repos\\Glareyo\\Prog_301\\Sprint11_HW_2.0\\Sprint11_HW_2.0.csproj",
+      "packagesPath": "C:\\Users\\cedillo02\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cedillo02\\Source\\Repos\\Glareyo\\Prog_301\\Sprint11_HW_2.0\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\nemo1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\cedillo02\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -10025,6 +10025,7 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -10075,7 +10076,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }

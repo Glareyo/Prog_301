@@ -1,10 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Prog301_CurrencyProject\\USCoinClasses",
     "\\Sprint11_HW_2.0",
+    "\\Sprint11_HW_2.0\\Views",
+    "\\Sprint11_HW_2.0\\Views\\Human",
     "\\Sprint11_HW_2.0_UnitTests"
   ],
-  "SelectedNode": "\\Sprint11_HW_2.0_UnitTests\\HumanTests.cs",
+  "SelectedNode": "\\Sprint11_HW_2.0\\Views\\Human\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }
