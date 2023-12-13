@@ -1,11 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Sprint11_HW_2.0",
-    "\\Sprint11_HW_2.0\\Views",
-    "\\Sprint11_HW_2.0\\Views\\Human",
-    "\\Sprint11_HW_2.0_UnitTests"
+    "\\Sprint 12_MVCCurrency\\MVC_Currency",
+    "\\Sprint 12_MVCCurrency\\MVC_CurrencyUnitTests",
+    "\\_FinalProject"
   ],
-  "SelectedNode": "\\Sprint11_HW_2.0\\Views\\Human\\Index.cshtml",
+  "SelectedNode": "\\_FinalProject",
   "PreviewInSolutionExplorer": false
 }

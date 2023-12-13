@@ -1,0 +1,35 @@
+﻿namespace SportsLibrary
+{
+    public class Player : IPlayer
+    {
+        public Player()
+        {
+            ID = playerCount++;
+            Name = "Bob";
+            Number = 1;
+        }
+        public Player(string name, int number)
+        {
+            ID = playerCount++;
+            Name = name;
+            Number = number;
+        }
+
+        public static int playerCount;
+
+        public int ID { get; set; }
+        public string Name { get; set; }
+        public int Number { get; set; }
+
+        public string UpdateNumber(int number)
+        {
+            Number = number;
+            return $"{Name}'s Number Changed to {Number}";
+        }
+        public string UpdateName(string name)
+        {
+            Name = name;
+            return $"Player is now {Name}";
+        }
+    }
+}

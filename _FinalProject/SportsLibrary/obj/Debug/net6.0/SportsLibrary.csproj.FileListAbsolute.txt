@@ -1,0 +1,12 @@
+C:\Users\cedillo02\Source\Repos\Glareyo\Prog_301\_FinalProject\SportsLibrary\bin\Debug\net6.0\SportsLibrary.deps.json
+C:\Users\cedillo02\Source\Repos\Glareyo\Prog_301\_FinalProject\SportsLibrary\bin\Debug\net6.0\SportsLibrary.dll
+C:\Users\cedillo02\Source\Repos\Glareyo\Prog_301\_FinalProject\SportsLibrary\bin\Debug\net6.0\SportsLibrary.pdb
+C:\Users\cedillo02\Source\Repos\Glareyo\Prog_301\_FinalProject\SportsLibrary\obj\Debug\net6.0\SportsLibrary.csproj.AssemblyReference.cache
+C:\Users\cedillo02\Source\Repos\Glareyo\Prog_301\_FinalProject\SportsLibrary\obj\Debug\net6.0\SportsLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cedillo02\Source\Repos\Glareyo\Prog_301\_FinalProject\SportsLibrary\obj\Debug\net6.0\SportsLibrary.AssemblyInfoInputs.cache
+C:\Users\cedillo02\Source\Repos\Glareyo\Prog_301\_FinalProject\SportsLibrary\obj\Debug\net6.0\SportsLibrary.AssemblyInfo.cs
+C:\Users\cedillo02\Source\Repos\Glareyo\Prog_301\_FinalProject\SportsLibrary\obj\Debug\net6.0\SportsLibrary.csproj.CoreCompileInputs.cache
+C:\Users\cedillo02\Source\Repos\Glareyo\Prog_301\_FinalProject\SportsLibrary\obj\Debug\net6.0\SportsLibrary.dll
+C:\Users\cedillo02\Source\Repos\Glareyo\Prog_301\_FinalProject\SportsLibrary\obj\Debug\net6.0\refint\SportsLibrary.dll
+C:\Users\cedillo02\Source\Repos\Glareyo\Prog_301\_FinalProject\SportsLibrary\obj\Debug\net6.0\SportsLibrary.pdb
+C:\Users\cedillo02\Source\Repos\Glareyo\Prog_301\_FinalProject\SportsLibrary\obj\Debug\net6.0\ref\SportsLibrary.dll
