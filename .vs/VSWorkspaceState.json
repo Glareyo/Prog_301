@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\_FinalProject"
+    "\\_FinalProject",
+    "\\_FinalProject\\SportsMVC",
+    "\\_FinalProject\\SportsUnitTests"
   ],
+  "SelectedNode": "\\_FinalProject\\SportsUnitTests\\PlayerTests.cs",
   "PreviewInSolutionExplorer": false
 }

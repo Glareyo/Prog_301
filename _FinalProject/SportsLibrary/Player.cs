@@ -1,6 +1,8 @@
-﻿namespace SportsLibrary
+﻿using SportsLibrary.Interfaces.StatsInterfaces;
+
+namespace SportsLibrary
 {
-    public class Player : IPlayer
+    public class Player : IPlayer, IHasStats
     {
         public Player()
         {
@@ -20,6 +22,7 @@
         public int ID { get; set; }
         public string Name { get; set; }
         public int Number { get; set; }
+        public List<IStats> Stats { get; set; }
 
         public string UpdateNumber(int number)
         {
@@ -30,6 +33,16 @@
         {
             Name = name;
             return $"Player is now {Name}";
+        }
+
+        public string AddStats(IStats Stats)
+        {
+            throw new NotImplementedException();
+        }
+
+        public string UpdateStats(IStats stat, int newStatNum)
+        {
+            throw new NotImplementedException();
         }
     }
 }
