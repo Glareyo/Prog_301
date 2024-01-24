@@ -1,10 +1,15 @@
 {
   "ExpandedNodes": [
     "",
-    "\\_FinalProject",
-    "\\_FinalProject\\SportsMVC",
-    "\\_FinalProject\\SportsUnitTests"
+    "\\Prog301_Sprint5HW",
+    "\\Prog301_Sprint5HW\\Sprint5HW",
+    "\\Prog301_Sprint5HW\\Sprint5HW\\Result Classes",
+    "\\_FinalProject_WPF_2",
+    "\\_FinalProject_WPF_2\\SportsLibrary",
+    "\\_FinalProject_WPF_2\\SportsLibrary\\Interfaces",
+    "\\_FinalProject_WPF_2\\SportsUnitTests",
+    "\\_FinalProject_WPF_2\\SportsWPF"
   ],
-  "SelectedNode": "\\_FinalProject\\SportsUnitTests\\PlayerTests.cs",
+  "SelectedNode": "\\_FinalProject_WPF_2\\SportsUnitTests\\bin",
   "PreviewInSolutionExplorer": false
 }

@@ -1,0 +1,12 @@
+C:\Users\nemo1\source\repos\Glareyo\Prog_301\_FinalProject_WPF\SportsLibrary\bin\Debug\net6.0-windows\SportsLibrary.deps.json
+C:\Users\nemo1\source\repos\Glareyo\Prog_301\_FinalProject_WPF\SportsLibrary\bin\Debug\net6.0-windows\SportsLibrary.dll
+C:\Users\nemo1\source\repos\Glareyo\Prog_301\_FinalProject_WPF\SportsLibrary\bin\Debug\net6.0-windows\SportsLibrary.pdb
+C:\Users\nemo1\source\repos\Glareyo\Prog_301\_FinalProject_WPF\SportsLibrary\obj\Debug\net6.0-windows\SportsLibrary.csproj.AssemblyReference.cache
+C:\Users\nemo1\source\repos\Glareyo\Prog_301\_FinalProject_WPF\SportsLibrary\obj\Debug\net6.0-windows\SportsLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nemo1\source\repos\Glareyo\Prog_301\_FinalProject_WPF\SportsLibrary\obj\Debug\net6.0-windows\SportsLibrary.AssemblyInfoInputs.cache
+C:\Users\nemo1\source\repos\Glareyo\Prog_301\_FinalProject_WPF\SportsLibrary\obj\Debug\net6.0-windows\SportsLibrary.AssemblyInfo.cs
+C:\Users\nemo1\source\repos\Glareyo\Prog_301\_FinalProject_WPF\SportsLibrary\obj\Debug\net6.0-windows\SportsLibrary.csproj.CoreCompileInputs.cache
+C:\Users\nemo1\source\repos\Glareyo\Prog_301\_FinalProject_WPF\SportsLibrary\obj\Debug\net6.0-windows\SportsLibrary.dll
+C:\Users\nemo1\source\repos\Glareyo\Prog_301\_FinalProject_WPF\SportsLibrary\obj\Debug\net6.0-windows\refint\SportsLibrary.dll
+C:\Users\nemo1\source\repos\Glareyo\Prog_301\_FinalProject_WPF\SportsLibrary\obj\Debug\net6.0-windows\SportsLibrary.pdb
+C:\Users\nemo1\source\repos\Glareyo\Prog_301\_FinalProject_WPF\SportsLibrary\obj\Debug\net6.0-windows\ref\SportsLibrary.dll

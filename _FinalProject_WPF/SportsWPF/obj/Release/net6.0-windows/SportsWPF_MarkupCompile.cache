@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\cedillo02\Source\Repos\Glareyo\Prog_301\_FinalProject_WPF\SportsWPF\obj\Release\net6.0-windows\
+C:\Users\nemo1\Source\Repos\Glareyo\Prog_301\_FinalProject_WPF\SportsWPF\obj\Release\net6.0-windows\
 SportsWPF
 none
 false
 TRACE;RELEASE;NET;NET6_0;NETCOREAPP
-C:\Users\cedillo02\Source\Repos\Glareyo\Prog_301\_FinalProject_WPF\SportsWPF\App.xaml
-2-1325782333
+C:\Users\nemo1\Source\Repos\Glareyo\Prog_301\_FinalProject_WPF\SportsWPF\App.xaml
+51303753164
 
-4-1582230464
-1951908092409
-MainWindow.xaml;UserControls\MainMenuControls.xaml;
+101364682514
+196-1858068948
+MainWindow.xaml;Pages\PlayerAdminPage.xaml;UserControls\MainMenuControls.xaml;UserControls\ucAdminPlayer.xaml;UserControls\ucPlayerList.xaml;
 
 True
 

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\cedillo02\Source\Repos\Glareyo\Prog_301\_FinalProject_WPF\SportsWPF\obj\Debug\net6.0-windows\
-SportsWPF
+C:\Users\nemo1\source\repos\Glareyo\Prog_301\_FinalProject_WPF\SportsWPF\obj\Debug\net6.0-windows\
+SportsWPF_rprahdmm_wpftmp
 none
 false
-TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\cedillo02\Source\Repos\Glareyo\Prog_301\_FinalProject_WPF\SportsWPF\App.xaml
-2-1325782333
+TRACE;RELEASE;NET;NET6_0;NETCOREAPP
+C:\Users\nemo1\source\repos\Glareyo\Prog_301\_FinalProject_WPF\SportsWPF\App.xaml
+51303753164
 
-4-1582230464
-195-1129683032
-MainWindow.xaml;UserControls\MainMenuControls.xaml;
+16-285466211
+391294355805
+MainWindow.xaml;Pages\PlayerAdminPage.xaml;UserControls\MainMenuControls.xaml;UserControls\ucAdminPlayer.xaml;UserControls\ucPlayerList.xaml;
 
 True
 

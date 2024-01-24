@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cedillo02\\Source\\Repos\\Glareyo\\Prog_301\\_FinalProject_WPF\\SportsWPF\\SportsWPF.csproj": {}
+    "C:\\Users\\nemo1\\source\\repos\\Glareyo\\Prog_301\\_FinalProject_WPF\\SportsWPF\\SportsWPF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cedillo02\\Source\\Repos\\Glareyo\\Prog_301\\_FinalProject_WPF\\SportsLibrary\\SportsLibrary.csproj": {
+    "C:\\Users\\nemo1\\source\\repos\\Glareyo\\Prog_301\\_FinalProject_WPF\\SportsLibrary\\SportsLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cedillo02\\Source\\Repos\\Glareyo\\Prog_301\\_FinalProject_WPF\\SportsLibrary\\SportsLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\nemo1\\source\\repos\\Glareyo\\Prog_301\\_FinalProject_WPF\\SportsLibrary\\SportsLibrary.csproj",
         "projectName": "SportsLibrary",
-        "projectPath": "C:\\Users\\cedillo02\\Source\\Repos\\Glareyo\\Prog_301\\_FinalProject_WPF\\SportsLibrary\\SportsLibrary.csproj",
-        "packagesPath": "C:\\Users\\cedillo02\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cedillo02\\Source\\Repos\\Glareyo\\Prog_301\\_FinalProject_WPF\\SportsLibrary\\obj\\",
+        "projectPath": "C:\\Users\\nemo1\\source\\repos\\Glareyo\\Prog_301\\_FinalProject_WPF\\SportsLibrary\\SportsLibrary.csproj",
+        "packagesPath": "C:\\Users\\nemo1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nemo1\\Source\\Repos\\Glareyo\\Prog_301\\_FinalProject_WPF\\SportsLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\cedillo02\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nemo1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -60,24 +60,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\cedillo02\\Source\\Repos\\Glareyo\\Prog_301\\_FinalProject_WPF\\SportsWPF\\SportsWPF.csproj": {
+    "C:\\Users\\nemo1\\source\\repos\\Glareyo\\Prog_301\\_FinalProject_WPF\\SportsWPF\\SportsWPF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cedillo02\\Source\\Repos\\Glareyo\\Prog_301\\_FinalProject_WPF\\SportsWPF\\SportsWPF.csproj",
+        "projectUniqueName": "C:\\Users\\nemo1\\source\\repos\\Glareyo\\Prog_301\\_FinalProject_WPF\\SportsWPF\\SportsWPF.csproj",
         "projectName": "SportsWPF",
-        "projectPath": "C:\\Users\\cedillo02\\Source\\Repos\\Glareyo\\Prog_301\\_FinalProject_WPF\\SportsWPF\\SportsWPF.csproj",
-        "packagesPath": "C:\\Users\\cedillo02\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cedillo02\\Source\\Repos\\Glareyo\\Prog_301\\_FinalProject_WPF\\SportsWPF\\obj\\",
+        "projectPath": "C:\\Users\\nemo1\\source\\repos\\Glareyo\\Prog_301\\_FinalProject_WPF\\SportsWPF\\SportsWPF.csproj",
+        "packagesPath": "C:\\Users\\nemo1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nemo1\\Source\\Repos\\Glareyo\\Prog_301\\_FinalProject_WPF\\SportsWPF\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\cedillo02\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nemo1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -93,8 +93,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\cedillo02\\Source\\Repos\\Glareyo\\Prog_301\\_FinalProject_WPF\\SportsLibrary\\SportsLibrary.csproj": {
-                "projectPath": "C:\\Users\\cedillo02\\Source\\Repos\\Glareyo\\Prog_301\\_FinalProject_WPF\\SportsLibrary\\SportsLibrary.csproj"
+              "C:\\Users\\nemo1\\source\\repos\\Glareyo\\Prog_301\\_FinalProject_WPF\\SportsLibrary\\SportsLibrary.csproj": {
+                "projectPath": "C:\\Users\\nemo1\\source\\repos\\Glareyo\\Prog_301\\_FinalProject_WPF\\SportsLibrary\\SportsLibrary.csproj"
               }
             }
           }
@@ -127,7 +127,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

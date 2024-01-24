@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Button x:Name="bSports" Content="Sports" HorizontalAlignment="Left" Margin="37,98,0,0" VerticalAlignment="Top" Height="68" Width="130"/>
+        <Button x:Name="bPlayers" Content="Players" HorizontalAlignment="Left" Margin="37,192,0,0" VerticalAlignment="Top" Height="68" Width="130" Click="bPlayers_Click" MouseEnter="bPlayers_MouseEnter"/>
+        <Button x:Name="bTeams" Content="Teams" HorizontalAlignment="Left" Margin="37,283,0,0" VerticalAlignment="Top" Height="68" Width="130" Click="bPlayers_Click"/>
+        <Frame x:Name="F_Main" Content="" NavigationUIVisibility="Hidden"/>
 
     </Grid>
 </Window>

@@ -11,4 +11,10 @@
     <ProjectReference Include="..\SportsLibrary\SportsLibrary.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="SportsWPF">
+      <HintPath>bin\Debug\net6.0-windows\SportsWPF.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

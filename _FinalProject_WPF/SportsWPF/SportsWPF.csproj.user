@@ -7,7 +7,16 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Pages\PlayerAdminPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="UserControls\MainMenuControls.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\ucAdminPlayer.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\ucPlayerList.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -15,7 +24,16 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Pages\PlayerAdminPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="UserControls\MainMenuControls.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\ucAdminPlayer.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\ucPlayerList.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
